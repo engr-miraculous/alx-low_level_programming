@@ -13,7 +13,7 @@ int main(void)
 
 	for (i = 0 ; i < 26 ; i++)
 	{
-		if (i != 3 && i != 16)
+		if (i != 4 && i != 16)
 			putchar('a' + i);
 	}
 	putchar('\n');
