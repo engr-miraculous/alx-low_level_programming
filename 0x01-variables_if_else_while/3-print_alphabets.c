@@ -9,21 +9,21 @@
  */
 int main(void)
 {
-        int i;
-
-        for (i = 0 ; i < 26 ; i++)
-
-        {
-                putchar('a' + i);
-        }
+	int i;
 
 	for (i = 0 ; i < 26 ; i++)
 
-        {
-                putchar('A' + i);
-        }
+	{
+		putchar('a' + i);
+	}
 
-        putchar('\n');
+	for (i = 0 ; i < 26 ; i++)
 
-        return (0);
+	{
+		putchar('A' + i);
+	}
+
+	putchar('\n');
+
+	return (0);
 }
