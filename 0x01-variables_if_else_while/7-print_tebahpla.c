@@ -13,7 +13,7 @@ int main(void)
 
 	for (i = 0 ; i > -26 ; i--)
 	{
-	    putchar('z' + i);
+		putchar('z' + i);
 	}
 	putchar('\n');
 
