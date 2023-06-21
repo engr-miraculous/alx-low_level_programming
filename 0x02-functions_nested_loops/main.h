@@ -2,7 +2,6 @@
 #define MAIN_H
 
 int _putchar(char c);
-void print_times_table(int n);
+int _isalpha(int c);
 
 #endif /* MAIN_H */
-
