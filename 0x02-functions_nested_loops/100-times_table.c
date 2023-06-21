@@ -1,5 +1,8 @@
 #include "main.h"
-
+/**
+ * print_number - Prints a number with proper formatting
+ * @num: The number to be printed
+ */
 void print_number(int num)
 {
 if (num < 10)
@@ -18,7 +21,10 @@ _putchar(((num / 10) % 10) + '0');
 _putchar((num % 10) + '0');
 }
 }
-
+/**
+ * print_times_table - Prints the n times table, starting with 0
+ * @n: The number of times to print the table
+ */
 void print_times_table(int n)
 {
 int i, j, product;
