@@ -3,7 +3,8 @@
 /**
  * main - Entry point of the program
  *
- * Description: Prints the first 50 Fibonacci numbers separated by comma and space.
+ * Description: Prints the first 50 Fibonacci
+ * numbers separated by comma and space.
  *
  * Return: Always 0
  */
@@ -28,6 +29,6 @@ current = next;
 
 printf("\n");
 
-return 0;
+return (0);
 }
 
