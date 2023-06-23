@@ -2,6 +2,7 @@
 #define MAIN_H
 
 int _isupper(int c);
+int _isupper(int c);
 
 #endif /* MAIN_H */
 
