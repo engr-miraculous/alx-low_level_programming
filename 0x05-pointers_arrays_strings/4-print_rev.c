@@ -13,7 +13,7 @@ while (s[length] != '\0')
 length++;
 }
 
-for (int length ; length >= 0; length--)
+for (length ; length >= 0; length--)
 {
 _putchar(s[length]);
 }
