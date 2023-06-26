@@ -13,9 +13,9 @@ while (s[length] != '\0')
 length++;
 }
 
-for (length ; length >= 0; length--)
+for (int i = length - 1; i >= 0; i--)
 {
-_putchar(s[length]);
+_putchar(s[i]);
 }
 
 _putchar('\n');
