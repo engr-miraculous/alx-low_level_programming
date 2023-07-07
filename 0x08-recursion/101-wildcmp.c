@@ -18,8 +18,8 @@ if (*(s2 + 1) == '*') /* Skip consecutive * characters */
 return (wildcmp(s1, s2 + 1));
 if (*s1 == '\0') /* Base case: s2 has a single * and s1 is empty */
 return (wildcmp(s1, s2 + 1));
-return (wildcmp(s1, s2 + 1) || wildcmp(s1 + 1, s2)); /* Recursive call for
- * matching or * skipping */
+return (wildcmp(s1, s2 + 1) || wildcmp(s1 + 1, s2)); /* Recursive call for*/
+ /* matching or * skipping */
 }
 
 if (*s1 == '\0' || *s1 != *s2) /* Base case: characters don't match */
